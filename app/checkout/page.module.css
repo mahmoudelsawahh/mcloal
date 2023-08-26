@@ -1,0 +1,163 @@
+.col_container {
+  padding: 20px 0;
+  border-top: 1px solid #eee;
+  /* margin: 10px 0; */
+}
+.imageContainer {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+}
+.productName h4 {
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+.Favourite {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: transparent;
+  border: none;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  margin-top: 10px;
+  font-weight: bold;
+}
+.Favourite svg {
+  margin-right: 10px;
+  color: gray;
+}
+.Favourite p {
+  color: gray;
+}
+.Favourite:focus-visible {
+  outline: none;
+}
+/* .Favourite:hover {
+} */
+
+.Product_add_to_cart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 !important;
+}
+.amount {
+  font-weight: bold;
+  margin-left: 20px;
+  margin-bottom: 0;
+}
+.Counter_section {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.Product_Count {
+  border: 1px solid var(--black);
+  padding: 7px 0;
+  /* margin-right: 20px; */
+}
+.Product_Count button {
+  /* padding: 5px 0; */
+  border: none;
+  background-color: transparent;
+  min-width: 50px;
+  min-height: 30px;
+  cursor: pointer;
+  font-size: 25px;
+}
+.price {
+  text-align: center;
+}
+.price del {
+  font-size: 18px;
+  color: gray;
+}
+.price p {
+  font-size: 22px;
+  /* font-weight: bold; */
+  margin-top: 10px;
+}
+
+.delete {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: transparent;
+  border: none;
+  /* margin-top: 10px; */
+  font-weight: bold;
+  font-size: 25px;
+  cursor: pointer;
+  text-align: center;
+  margin: 0 auto;
+  width: fit-content;
+}
+.Subtotal {
+  padding: 20px;
+  box-shadow: 1px 1px 9px 4px #f1f1f1;
+}
+.Subtotal .order div {
+  padding: 5px 0;
+  margin: 15px 0;
+}
+.Subtotal hr {
+  border-color: #d5d5d5 !important;
+}
+
+.Subtotal h4 span {
+  color: gray;
+}
+.Subtotal .product_div {
+  padding: 10px 0;
+  border-top: 1px solid #d5d5d5;
+}
+
+.Subtotal button {
+  width: 100%;
+  font-size: 20px;
+  font-weight: 500;
+}
+@media (max-width: 767.98px) {
+  .header {
+    display: none;
+  }
+}
+.bg_container {
+  background: var(--back_color);
+  padding: 15px;
+  margin-top: 15px;
+}
+.radio_div {
+  border-bottom: 1px solid gray;
+  padding: 20px 0;
+  /* cursor: pointer; */
+}
+
+.radio_div label {
+  cursor: pointer;
+}
+
+.radio_div2 {
+  padding: 20px 0;
+  /* cursor: pointer; */
+  border: none;
+}
+
+.radio_div2 label {
+  cursor: pointer;
+}
+.radio_div:last-of-type {
+  border: none;
+}
+.pay_Now {
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.credit_info input {
+  background: white !important;
+  border: 1px solid #d5d5d5 !important;
+}

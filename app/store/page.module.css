@@ -1,0 +1,27 @@
+.pagenation {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagenation a {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #666666;
+}
+.active {
+  border: 1px solid black;
+  color: black !important;
+}
+
+
+
+/* .cramp a:last-of-type {
+  color:black;
+} */

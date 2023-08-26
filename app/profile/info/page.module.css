@@ -1,0 +1,65 @@
+.info_input {
+}
+.info_input input {
+  border: none;
+  padding: 10px 0;
+  font-size: 18px;
+  min-width: 40%;
+}
+.info_input input:focus-visible {
+  outline: none;
+}
+.Contact_Info {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+/* .Contact_Info p {
+  margin-bottom: 10px;
+} */
+
+.Contact_Info .change_Btn {
+  background-color: transparent;
+  border: none;
+  padding: 10px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+/* .Address {
+
+} */
+
+.Address_cont {
+  padding: 15px;
+  margin-bottom: 15px;
+  background: #f7f8fa;
+}
+
+.Address_cont p {
+  margin-bottom: 10px;
+}
+.location {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+.location p {
+  padding: 10px;
+  border: 1px solid black;
+  text-align: center;
+  margin-right: 10px;
+}
+.SaveBtn {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.SaveBtn button {
+  border: none;
+  background: transparent;
+  margin-right: 10px;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
